@@ -88,12 +88,12 @@ The first ML classifier presented the following performance values:
 
 The confusion matrix for the first classifier is reported in the following image:
 <div align="center">
-<img width="500" height="370" alt="Confusion Matrix First Classifier" src="https://github.com/user-attachments/assets/f46f6e68-0e6c-4b35-b2c6-1ef55f9b5929" />
+<img width="500" height="350" alt="Confusion Matrix First Classifier" src="https://github.com/user-attachments/assets/f46f6e68-0e6c-4b35-b2c6-1ef55f9b5929" />
 </div>
 
 The SHAP explainability regarding the first classifier is shown in the following image:
 <div align="center">
-<img width="700" height="450" alt="SHAP explainability First Classifier" src="https://github.com/user-attachments/assets/9aaa40d6-d70c-462c-8133-92c44a283e38" />
+<img width="600" height="350" alt="SHAP explainability First Classifier" src="https://github.com/user-attachments/assets/9aaa40d6-d70c-462c-8133-92c44a283e38" />
 </div>
 
 The most influent EEG feature was Variance.
@@ -106,12 +106,12 @@ The second ML classifier presented the following performance values:
 
 The confusion matrix for the second classifier is reported in the following image:
 <div align="center">
-<img width="500" height="370" alt="Confusion Matrix Second Classifier" src="https://github.com/user-attachments/assets/ad058e18-208c-4283-a358-87a448cc5346" />
+<img width="500" height="350" alt="Confusion Matrix Second Classifier" src="https://github.com/user-attachments/assets/ad058e18-208c-4283-a358-87a448cc5346" />
 </div>
 
 The SHAP explainability regarding the second classifier is shown in the following image:
 <div align="center">
-<img width="700" height="450" alt="SHAP explainability Second Classifier" src="https://github.com/user-attachments/assets/698848cd-fb1f-4190-9f67-e86e0e506ae5" />
+<img width="600" height="350" alt="SHAP explainability Second Classifier" src="https://github.com/user-attachments/assets/698848cd-fb1f-4190-9f67-e86e0e506ae5" />
 </div>
 
 The most influent EEG feature was PSD between 29Hz and 30Hz.
