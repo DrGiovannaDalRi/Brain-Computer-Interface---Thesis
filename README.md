@@ -136,3 +136,20 @@ The system can be used without limitation of pathologies (besides the limitation
 
 ## Tech Stack
 * Language: Python 3.10+
+
+## License
+This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
+
+Under this license, you are free to use, modify, and distribute the code for academic or commercial purposes, provided that original authorship is attributed and modified files retain notices of changes.
+
+## Citation
+If you use this code, the WGAN-GP feature augmentation pipeline, or the BCI framework in your research, please cite it as follows:
+
+```bibtex
+@masterthesis{DalRi2025BCI,
+  author       = {Dr. Giovanna Dal Rì, MD, BME},
+  title        = {End-to-End BCI Pipeline with WGAN-GP Feature Augmentation and Exergame Actuator for Neurorecovery},
+  school       = {Medicine and Biomedical Engineering (MedTec), Humanitas University and Politecnico di Milano},
+  year         = {2025},
+  note         = {GitHub Repository: [https://github.com/DrGiovannaDalRi/Brain-Computer-Interface---Thesis]
+}
