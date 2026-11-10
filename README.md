@@ -8,6 +8,18 @@ giovanna.dalri.doctor@proton.me
 ## Motivation
 This project was conducted for my thesis in Medicine and Biomedical Engineering (MedTec). I personally recorded the EEG data and entirely programmed the BCI system.
 
+## Pipeline
+1. EEG Recording
+2. EEG Filtering
+3. Epoch Extraction
+4. Blink Rejection
+5. Large Laplacian
+6. Matched Filtering
+7. Feature Extraction
+8. WGAN-GP Feature Augmentation
+9. Random Forest Classification
+10. SHAP Explainability
+
 ## Description
 End-to-end BCI pipeline developed as an undergraduate (medicine and engineering) thesis project, bridging EEG signal acquisition, signal processing, machine learning decoding, and application as an interactive gaming platform.
 
@@ -35,7 +47,7 @@ The temporal features of interest are:
 - Skewness
 - Kurtosis
 
-The spectal features of interest are:
+The spectral features of interest are:
 - PSD for every 1Hz bin in range of 8Hz-30Hz 
 
 ### Features augmentation
@@ -51,7 +63,7 @@ The best combination of hyperparameters was found through the grid search.
 </div>
 
 ### Actuator 
-The actuator was an exergame platform. It gave different commands (right-hand, left-hand or idle) and compared it with the exercution. If the execution was correct, the game proceeds.
+The actuator was an exergame platform. It gave different commands (right-hand, left-hand or idle) and compared it with the execution. If the execution was correct, the game proceeds.
 
 <div align="center">
 <img width="600" height="300" alt="Actuator" src="https://github.com/user-attachments/assets/bdf15c66-5507-4c60-a3ab-90fc97f142b2" />
@@ -71,17 +83,17 @@ The performance of the ML models was evaluated through 5-Fold Cross Validation.
 
 ### Results
 Feature augmentation reported the following Pearson Correlation scores for each class:
-- Non-movement (0.91)
+- Idle (0.91)
 - Right-wrist movement (0.89)
 - Left-wrist movement (0.76)
 
 The following KS Test scores were also reported for each class: 
-- Non-movement (0.09)
+- Idle (0.09)
 - Right-wrist movement (0.12)
 - Left-wrist movement (0.18)
   
 The first ML classifier presented the following performance values:
-- Accuracy = 0.933 (± 0.01)
+- Accuracy = 0.933 (± 0.010)
 - Precision: 0.95 ± 0.01
 - Recall: 0.95 ± 0.01 
 - F1-Score: 0.95 ± 0.01
@@ -99,7 +111,7 @@ The SHAP explainability regarding the first classifier is shown in the following
 The most influent EEG feature was Variance.
 
 The second ML classifier presented the following performance values:
-- Accuracy = 0.965 (± 0.01)
+- Accuracy = 0.965 (± 0.010)
 - Precision: 0.97 ± 0.01
 - Recall: 0.96 ± 0.01 
 - F1-Score: 0.97 ± 0.01
