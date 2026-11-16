@@ -3,8 +3,6 @@
 ## Author
 Dr. Giovanna Dal Rì, Medical Doctor and Biomedical Engineer
 
-giovanna.dalri.doctor@proton.me
-
 ## Motivation
 This project was conducted for my thesis in Medicine and Biomedical Engineering (MedTec). I personally recorded the EEG data and entirely programmed the BCI system.
 
@@ -136,6 +134,7 @@ The system can be used without limitation of pathologies (besides the limitation
 
 ## Tech Stack
 * Language: Python 3.10+
+* Libraries: see requirements.txt
 
 ## License
 This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
